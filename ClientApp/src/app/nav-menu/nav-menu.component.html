@@ -19,26 +19,26 @@
         class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse"
         [ngClass]="{ show: isExpanded }"
       >
-        <ul class="navbar-nav flex-grow">
+        <ul class="snip1226 align-left navbar-nav flex-grow">
           <li class="nav-item"
-              [routerLinkActive]="['link-active']"
+              [routerLinkActive]="['link-active']" 
               [routerLinkActiveOptions]="{ exact: true }">
-            <a class="nav-link text-dark" [routerLink]="['/home']">Me</a>
+            <a class="nav-link text-dark" data-hover="Me" [routerLink]="['/home']">Me</a>
           </li>
           <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-dark" [routerLink]="['/skills']">Skills</a>
+            <a class="nav-link text-dark" data-hover="Skills" [routerLink]="['/skills']">Skills</a>
           </li>
           <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-dark" [routerLink]="['/academics']">Academics</a>
+            <a class="nav-link text-dark" data-hover="Academics" [routerLink]="['/academics']">Academics</a>
           </li>
           <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-dark" [routerLink]="['/professional']">Experience</a>
+            <a class="nav-link text-dark" data-hover="Experience" [routerLink]="['/professional']">Experience</a>
           </li>
           <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-dark" [routerLink]="['/honors']">Recognition</a>
+            <a class="nav-link text-dark" data-hover="Recognition" [routerLink]="['/honors']">Recognition</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" href="./resume.pdf">Download</a>
+            <a class="nav-link text-dark" data-hover="Resume" href="./resume.pdf">Download</a>
           </li>
         </ul>
       </div>
