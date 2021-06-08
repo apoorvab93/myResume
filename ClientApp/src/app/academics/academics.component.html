@@ -1,19 +1,45 @@
 <h1>Projects</h1>
-<br/>
-<strong><p>Auto Documentor </p></strong>
+<br />
+<strong>GIF Caption Generator for improving web accessibility</strong>
+<ul>
+  <li>
+    Auto generate a caption describing the contents of a GIF image with the goal of making it easier for screen readers to read
+    out a GIF for those relying on accessibility tools to understand content on the web.
+  </li>
+  <li>
+    The system uses a convolutional neural network (CNN) and a recurrent neural network (RNN) for encoding and decoding a
+    GIF to generate descriptive text. The network is trained on Tumblr GIF image dataset.
+  </li>
+</ul>
+
+
+<strong>Auto Documentor</strong>
 <ul>
   <li>
     Developing an ML based solution for auto detecting question-answer pairs in a user’s emails for the purpose of documentation. Once discovered, the result set is displayed to the user and if approved, the content will be added to a wiki.
   </li>
   <li>
-   	A multi layered ANN was used to classify sentences as questions. Model trained on SQUAD 2.0 and NPS chat dataset.
+    A multi layered ANN was used to classify sentences as questions. Model trained on SQUAD 2.0 and NPS chat dataset.
   </li>
   <li>
     The system then converts each sentence to a vector using Facebook’s Infersent implementation and then uses cosine similarity and sentence structure semantics to identify candidate sentences as answers.
   </li>
 </ul>
 
-<strong><p>Google File System </p></strong>
+<strong>Smart Diary</strong>
+<ul>
+  <li>
+    Created an app that serves as a daily journal. It included smart capabilities like emotion detection and media description.
+  </li>
+  <li>
+    Developed a multi-tiered, multi-threaded backend application using Enterprise Java Beans and Glassfish server to support
+    the storage and retrieval of content created by a user. The front end was written in Angular and provided capabilities to
+    author content. The back end also included an Azure Cognitive Service based ML model to run sentiment analysis on the
+    text to predict the user’s emotional state for the authored content.
+  </li>
+</ul>
+
+<strong>Google File System</strong>
 <ul>
   <li>
     Developing a micro implementation of the google file system to better understand the architecture complexity of GFS
@@ -26,7 +52,7 @@
   </li>
 </ul>
 
-<strong><p> Captcha Defeater </p></strong>
+<strong>Captcha Defeater</strong>
 <ul>
   <li>
     A multilayer deep neural network was used to classify images as numbers. Model was trained on USPS handwritten digits dataset. The dataset has 14 features which were further reduced, and the data was divided 10-fold to train the model.
@@ -35,7 +61,3 @@
     The trained model was then used to predict which image corresponds to which number and was used to defeat a basic CAPTCHA system that is often used to differentiate between humans and bots
   </li>
 </ul>
-
-
-
-

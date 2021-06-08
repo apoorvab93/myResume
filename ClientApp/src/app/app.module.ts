@@ -7,10 +7,11 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
-import { AcademicsComponent } from "./academics/AcademicsComponent";
+import { AcademicsComponent } from "./academics/academics.component";
 import { SkillsComponent } from "./skills/SkillsComponent";
 import { HonorsComponent } from "./honors/HonorsComponent";
 import { ProfessionalComponent } from "./professional/ProfessionalComponent";
+import { AbilityComponent } from './abilities/ability.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { ProfessionalComponent } from "./professional/ProfessionalComponent";
     HonorsComponent,
     SkillsComponent,
     ProfessionalComponent,
+    AbilityComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -30,9 +32,10 @@ import { ProfessionalComponent } from "./professional/ProfessionalComponent";
         { path: '', component: HomeComponent, pathMatch: 'full' },
         { path: 'home', component: HomeComponent },
         { path: 'academics', component: AcademicsComponent },
-        { path: 'honors', component: HonorsComponent },
-        { path: 'skills', component:  SkillsComponent },
-        { path: 'professional', component:  ProfessionalComponent },
+      { path: 'honors', component: HonorsComponent },
+      { path: 'skills', component: AbilityComponent },
+      { path: 'professional', component: ProfessionalComponent },
+      { path: 'ability', component: AbilityComponent }
     ])
   ],
   providers: [],

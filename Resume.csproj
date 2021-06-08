@@ -26,6 +26,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="ClientApp\dist\wwwroot\download.png" />
+    <Content Include="ClientApp\dist\wwwroot\favicon.ico" />
+    <Content Include="ClientApp\dist\wwwroot\favicon.png" />
+    <Content Include="ClientApp\dist\wwwroot\resume.pdf" />
+  </ItemGroup>
+
+  <ItemGroup>
     <WCFMetadata Include="Connected Services" />
   </ItemGroup>
 
